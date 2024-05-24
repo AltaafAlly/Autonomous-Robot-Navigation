@@ -10,10 +10,9 @@
 This project demonstrates the implementation of an autonomous robot navigation system using Simultaneous Localization and Mapping (SLAM), Rapidly-exploring Random Trees (RRT), and real-time path planning. The key components include manual robot control, map generation with RViz and GMapping, path planning using RRT, and real-time navigation.
 
 ## Contents
-- `MOVE_ROBOT.py`: Script to manually control the robot using keyboard inputs.
-- `mapping_process.launch`: ROS launch file for starting the mapping process using RViz and GMapping.
-- `rrt_path_planning.py`: Script implementing the RRT algorithm for path planning.
-- `TurtlebotMover.py`: Class handling real-time navigation of the robot.
+- `Explorer.py`: Script to manually control the robot using keyboard inputs.
+- `move_robot.py`: Script implementing the RRT algorithm for path planning.
+- `RRT_Path_Finding.py`: Class handling real-time navigation of the robot.
 - `report.pdf`: LaTeX report detailing the project implementation in IEEE format.
 
 ## Setup Instructions
