@@ -4,7 +4,7 @@ from nav_msgs.msg import Odometry
 from tf.transformations import euler_from_quaternion
 from gazebo_msgs.srv import GetModelState
 import math
-from move_robot import get_path
+from path_mapping import get_path
 
 class TurtlebotMover:
     def __init__(self):
